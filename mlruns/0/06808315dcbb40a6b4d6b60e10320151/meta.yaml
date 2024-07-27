@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/06808315dcbb40a6b4d6b60e10320151/artifacts
+end_time: 1722110510695
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 06808315dcbb40a6b4d6b60e10320151
+run_name: caring-penguin-890
+run_uuid: 06808315dcbb40a6b4d6b60e10320151
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722110508093
+status: 4
+tags: []
+user_id: lindsay

@@ -1,0 +1,206 @@
+2024-07-27 13:10:24,618 INFO    StreamThr :68478 [internal.py:wandb_internal():86] W&B internal server running at pid: 68478, started at: 2024-07-27 13:10:24.615578
+2024-07-27 13:10:24,621 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: status
+2024-07-27 13:10:24,628 INFO    WriterThread:68478 [datastore.py:open_for_write():87] open: /mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/preprocess/wandb/run-20240727_131024-dqtti616/run-dqtti616.wandb
+2024-07-27 13:10:24,630 DEBUG   SenderThread:68478 [sender.py:send():378] send: header
+2024-07-27 13:10:24,723 DEBUG   SenderThread:68478 [sender.py:send():378] send: run
+2024-07-27 13:10:24,978 INFO    SenderThread:68478 [dir_watcher.py:__init__():211] watching files in: /mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/preprocess/wandb/run-20240727_131024-dqtti616/files
+2024-07-27 13:10:24,979 INFO    SenderThread:68478 [sender.py:_start_run_threads():1099] run started: dqtti616 with start time 1722111024.616759
+2024-07-27 13:10:25,014 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: check_version
+2024-07-27 13:10:25,015 DEBUG   SenderThread:68478 [sender.py:send_request():405] send_request: check_version
+2024-07-27 13:10:25,159 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: run_start
+2024-07-27 13:10:25,722 DEBUG   HandlerThread:68478 [system_info.py:__init__():26] System info init
+2024-07-27 13:10:25,722 DEBUG   HandlerThread:68478 [system_info.py:__init__():41] System info init done
+2024-07-27 13:10:25,723 INFO    HandlerThread:68478 [system_monitor.py:start():194] Starting system monitor
+2024-07-27 13:10:25,723 INFO    SystemMonitor:68478 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-27 13:10:25,723 INFO    HandlerThread:68478 [system_monitor.py:probe():214] Collecting system info
+2024-07-27 13:10:25,725 INFO    SystemMonitor:68478 [interfaces.py:start():190] Started cpu monitoring
+2024-07-27 13:10:25,728 INFO    SystemMonitor:68478 [interfaces.py:start():190] Started disk monitoring
+2024-07-27 13:10:25,730 INFO    SystemMonitor:68478 [interfaces.py:start():190] Started gpu monitoring
+2024-07-27 13:10:25,732 INFO    SystemMonitor:68478 [interfaces.py:start():190] Started memory monitoring
+2024-07-27 13:10:25,735 INFO    SystemMonitor:68478 [interfaces.py:start():190] Started network monitoring
+2024-07-27 13:10:25,750 DEBUG   HandlerThread:68478 [system_info.py:probe():150] Probing system
+2024-07-27 13:10:25,765 ERROR   gpu       :68478 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-07-27 13:10:25,766 ERROR   gpu       :68478 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-07-27 13:10:25,869 DEBUG   HandlerThread:68478 [system_info.py:_probe_git():135] Probing git
+2024-07-27 13:10:25,957 DEBUG   HandlerThread:68478 [system_info.py:_probe_git():143] Probing git done
+2024-07-27 13:10:25,958 DEBUG   HandlerThread:68478 [system_info.py:probe():198] Probing system done
+2024-07-27 13:10:25,958 DEBUG   HandlerThread:68478 [system_monitor.py:probe():223] {'os': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.10.14', 'heartbeatAt': '2024-07-27T20:10:25.750764', 'startedAt': '2024-07-27T20:10:24.521581', 'docker': None, 'cuda': None, 'args': ('--input_artifact', 'raw_data.parquet:latest', '--artifact_name', 'preprocessed_data.csv', '--artifact_type', 'preprocessed_data', '--artifact_description', 'Data with preprocessing applied'), 'state': 'running', 'program': '/mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/preprocess/run.py', 'codePathLocal': 'run.py', 'codePath': 'lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/preprocess/run.py', 'git': {'remote': 'https://github.com/LindsayMoir/nd0821-c2-build-model-workflow-exercises.git', 'commit': '1d237f12348c3d915abc3ddb7cb68ef6ab597236'}, 'email': 'tragoes@gmail.com', 'root': '/mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises', 'host': 'DESKTOP-LDCE0AL', 'username': 'lindsay', 'executable': '/home/lindsay/miniconda3/envs/mlflow-b662b891138f514f86ea83df6f384dc4f23b43c1/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2591.999, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2591.999, 'min': 0.0, 'max': 0.0}, {'current': 2591.999, 'min': 0.0, 'max': 0.0}, {'current': 2591.999, 'min': 0.0, 'max': 0.0}, {'current': 2591.999, 'min': 0.0, 'max': 0.0}, {'current': 2591.999, 'min': 0.0, 'max': 0.0}, {'current': 2591.999, 'min': 0.0, 'max': 0.0}, {'current': 2591.999, 'min': 0.0, 'max': 0.0}, {'current': 2591.999, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 1006.853931427002, 'used': 39.855777740478516}}, 'gpu': 'NVIDIA GeForce GTX 960M', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 960M', 'memory_total': 2147483648}], 'memory': {'total': 15.54885482788086}}
+2024-07-27 13:10:25,958 INFO    HandlerThread:68478 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-27 13:10:25,958 INFO    HandlerThread:68478 [system_monitor.py:probe():227] Publishing system info
+2024-07-27 13:10:25,959 DEBUG   HandlerThread:68478 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-07-27 13:10:25,981 INFO    Thread-12 :68478 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/preprocess/wandb/run-20240727_131024-dqtti616/files/conda-environment.yaml
+2024-07-27 13:10:26,922 DEBUG   HandlerThread:68478 [system_info.py:_save_conda():219] Saving conda packages done
+2024-07-27 13:10:26,926 INFO    HandlerThread:68478 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-27 13:10:26,929 DEBUG   SenderThread:68478 [sender.py:send():378] send: files
+2024-07-27 13:10:26,930 INFO    SenderThread:68478 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2024-07-27 13:10:26,973 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: python_packages
+2024-07-27 13:10:26,974 DEBUG   SenderThread:68478 [sender.py:send_request():405] send_request: python_packages
+2024-07-27 13:10:26,980 DEBUG   SenderThread:68478 [sender.py:send():378] send: telemetry
+2024-07-27 13:10:26,981 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: stop_status
+2024-07-27 13:10:26,982 DEBUG   SenderThread:68478 [sender.py:send_request():405] send_request: stop_status
+2024-07-27 13:10:26,982 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: internal_messages
+2024-07-27 13:10:26,994 INFO    Thread-12 :68478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/preprocess/wandb/run-20240727_131024-dqtti616/files/conda-environment.yaml
+2024-07-27 13:10:26,996 INFO    Thread-12 :68478 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/preprocess/wandb/run-20240727_131024-dqtti616/files/requirements.txt
+2024-07-27 13:10:26,998 INFO    Thread-12 :68478 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/preprocess/wandb/run-20240727_131024-dqtti616/files/wandb-metadata.json
+2024-07-27 13:10:27,334 INFO    wandb-upload_0:68478 [upload_job.py:push():131] Uploaded file /tmp/tmpz66h_laewandb/sr9mlp6v-wandb-metadata.json
+2024-07-27 13:10:27,438 DEBUG   SenderThread:68478 [sender.py:send():378] send: use_artifact
+2024-07-27 13:10:27,768 ERROR   gpu       :68478 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-07-27 13:10:27,769 ERROR   gpu       :68478 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-07-27 13:10:28,001 INFO    Thread-12 :68478 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/preprocess/wandb/run-20240727_131024-dqtti616/files/output.log
+2024-07-27 13:10:28,985 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: log_artifact
+2024-07-27 13:10:28,986 DEBUG   SenderThread:68478 [sender.py:send_request():405] send_request: log_artifact
+2024-07-27 13:10:29,771 ERROR   gpu       :68478 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-07-27 13:10:29,771 ERROR   gpu       :68478 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-07-27 13:10:30,006 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: poll_exit
+2024-07-27 13:10:30,020 INFO    Thread-12 :68478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/preprocess/wandb/run-20240727_131024-dqtti616/files/output.log
+2024-07-27 13:10:30,693 INFO    wandb-upload_0:68478 [upload_job.py:push():89] Uploaded file /home/lindsay/.local/share/wandb/artifacts/staging/tmp0hol98ln
+2024-07-27 13:10:31,278 INFO    SenderThread:68478 [sender.py:send_request_log_artifact():1431] logged artifact preprocessed_data.csv - {'id': 'QXJ0aWZhY3Q6MTA0NzUwMzIzNA==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMzMDU0MTIyOQ==', 'latestArtifact': None}}
+2024-07-27 13:10:31,279 DEBUG   SenderThread:68478 [sender.py:send():378] send: exit
+2024-07-27 13:10:31,280 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: status_report
+2024-07-27 13:10:31,280 INFO    SenderThread:68478 [sender.py:send_exit():585] handling exit code: 0
+2024-07-27 13:10:31,282 INFO    SenderThread:68478 [sender.py:send_exit():587] handling runtime: 3
+2024-07-27 13:10:31,287 INFO    SenderThread:68478 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-07-27 13:10:31,289 INFO    SenderThread:68478 [sender.py:send_exit():593] send defer
+2024-07-27 13:10:31,290 DEBUG   SenderThread:68478 [sender.py:send_request():405] send_request: poll_exit
+2024-07-27 13:10:31,290 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: defer
+2024-07-27 13:10:31,291 INFO    HandlerThread:68478 [handler.py:handle_request_defer():172] handle defer: 0
+2024-07-27 13:10:31,292 DEBUG   SenderThread:68478 [sender.py:send_request():405] send_request: defer
+2024-07-27 13:10:31,292 INFO    SenderThread:68478 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-07-27 13:10:31,293 INFO    SenderThread:68478 [sender.py:transition_state():613] send defer: 1
+2024-07-27 13:10:31,293 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: defer
+2024-07-27 13:10:31,294 INFO    HandlerThread:68478 [handler.py:handle_request_defer():172] handle defer: 1
+2024-07-27 13:10:31,294 DEBUG   SenderThread:68478 [sender.py:send_request():405] send_request: defer
+2024-07-27 13:10:31,295 INFO    SenderThread:68478 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-07-27 13:10:31,295 INFO    SenderThread:68478 [sender.py:transition_state():613] send defer: 2
+2024-07-27 13:10:31,296 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: defer
+2024-07-27 13:10:31,296 INFO    HandlerThread:68478 [handler.py:handle_request_defer():172] handle defer: 2
+2024-07-27 13:10:31,296 INFO    HandlerThread:68478 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-27 13:10:31,297 DEBUG   SystemMonitor:68478 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-27 13:10:31,298 INFO    HandlerThread:68478 [interfaces.py:finish():202] Joined cpu monitor
+2024-07-27 13:10:31,298 DEBUG   SystemMonitor:68478 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-27 13:10:31,299 INFO    HandlerThread:68478 [interfaces.py:finish():202] Joined disk monitor
+2024-07-27 13:10:31,299 DEBUG   SystemMonitor:68478 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-27 13:10:31,315 ERROR   gpu       :68478 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-07-27 13:10:31,315 INFO    HandlerThread:68478 [interfaces.py:finish():202] Joined gpu monitor
+2024-07-27 13:10:31,316 INFO    HandlerThread:68478 [interfaces.py:finish():202] Joined memory monitor
+2024-07-27 13:10:31,317 INFO    HandlerThread:68478 [interfaces.py:finish():202] Joined network monitor
+2024-07-27 13:10:31,317 DEBUG   SenderThread:68478 [sender.py:send_request():405] send_request: defer
+2024-07-27 13:10:31,318 INFO    SenderThread:68478 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-07-27 13:10:31,318 INFO    SenderThread:68478 [sender.py:transition_state():613] send defer: 3
+2024-07-27 13:10:31,319 DEBUG   SenderThread:68478 [sender.py:send():378] send: stats
+2024-07-27 13:10:31,319 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: defer
+2024-07-27 13:10:31,320 INFO    HandlerThread:68478 [handler.py:handle_request_defer():172] handle defer: 3
+2024-07-27 13:10:31,320 DEBUG   SenderThread:68478 [sender.py:send_request():405] send_request: defer
+2024-07-27 13:10:31,321 INFO    SenderThread:68478 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-07-27 13:10:31,321 INFO    SenderThread:68478 [sender.py:transition_state():613] send defer: 4
+2024-07-27 13:10:31,322 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: defer
+2024-07-27 13:10:31,322 INFO    HandlerThread:68478 [handler.py:handle_request_defer():172] handle defer: 4
+2024-07-27 13:10:31,323 DEBUG   SenderThread:68478 [sender.py:send_request():405] send_request: defer
+2024-07-27 13:10:31,323 INFO    SenderThread:68478 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-07-27 13:10:31,324 INFO    SenderThread:68478 [sender.py:transition_state():613] send defer: 5
+2024-07-27 13:10:31,324 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: defer
+2024-07-27 13:10:31,325 INFO    HandlerThread:68478 [handler.py:handle_request_defer():172] handle defer: 5
+2024-07-27 13:10:31,325 DEBUG   SenderThread:68478 [sender.py:send():378] send: summary
+2024-07-27 13:10:31,329 INFO    SenderThread:68478 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-07-27 13:10:31,330 DEBUG   SenderThread:68478 [sender.py:send_request():405] send_request: defer
+2024-07-27 13:10:31,331 INFO    SenderThread:68478 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-07-27 13:10:31,331 INFO    SenderThread:68478 [sender.py:transition_state():613] send defer: 6
+2024-07-27 13:10:31,332 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: defer
+2024-07-27 13:10:31,332 INFO    HandlerThread:68478 [handler.py:handle_request_defer():172] handle defer: 6
+2024-07-27 13:10:31,333 DEBUG   SenderThread:68478 [sender.py:send_request():405] send_request: defer
+2024-07-27 13:10:31,333 INFO    SenderThread:68478 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-07-27 13:10:31,336 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: status_report
+2024-07-27 13:10:31,440 INFO    SenderThread:68478 [sender.py:transition_state():613] send defer: 7
+2024-07-27 13:10:31,441 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: defer
+2024-07-27 13:10:31,442 INFO    HandlerThread:68478 [handler.py:handle_request_defer():172] handle defer: 7
+2024-07-27 13:10:31,444 DEBUG   SenderThread:68478 [sender.py:send_request():405] send_request: defer
+2024-07-27 13:10:31,445 INFO    SenderThread:68478 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-07-27 13:10:32,008 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: poll_exit
+2024-07-27 13:10:32,047 INFO    Thread-12 :68478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/preprocess/wandb/run-20240727_131024-dqtti616/files/config.yaml
+2024-07-27 13:10:32,051 INFO    Thread-12 :68478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/preprocess/wandb/run-20240727_131024-dqtti616/files/output.log
+2024-07-27 13:10:32,053 INFO    Thread-12 :68478 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/preprocess/wandb/run-20240727_131024-dqtti616/files/wandb-summary.json
+2024-07-27 13:10:33,129 INFO    SenderThread:68478 [sender.py:transition_state():613] send defer: 8
+2024-07-27 13:10:33,131 DEBUG   SenderThread:68478 [sender.py:send_request():405] send_request: poll_exit
+2024-07-27 13:10:33,131 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: defer
+2024-07-27 13:10:33,133 INFO    HandlerThread:68478 [handler.py:handle_request_defer():172] handle defer: 8
+2024-07-27 13:10:33,135 DEBUG   SenderThread:68478 [sender.py:send_request():405] send_request: defer
+2024-07-27 13:10:33,136 INFO    SenderThread:68478 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-07-27 13:10:33,137 INFO    SenderThread:68478 [job_builder.py:build():298] Attempting to build job artifact
+2024-07-27 13:10:33,155 INFO    SenderThread:68478 [job_builder.py:_get_source_type():428] is repo sourced job
+2024-07-27 13:10:33,170 INFO    SenderThread:68478 [job_builder.py:build():404] adding wandb-job metadata file
+2024-07-27 13:10:33,213 INFO    SenderThread:68478 [sender.py:transition_state():613] send defer: 9
+2024-07-27 13:10:33,213 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: defer
+2024-07-27 13:10:33,214 DEBUG   SenderThread:68478 [sender.py:send():378] send: artifact
+2024-07-27 13:10:33,214 INFO    HandlerThread:68478 [handler.py:handle_request_defer():172] handle defer: 9
+2024-07-27 13:10:33,736 INFO    wandb-upload_0:68478 [upload_job.py:push():89] Uploaded file /home/lindsay/.local/share/wandb/artifacts/staging/tmp4b2bi63p
+2024-07-27 13:10:33,779 INFO    wandb-upload_1:68478 [upload_job.py:push():89] Uploaded file /home/lindsay/.local/share/wandb/artifacts/staging/tmpcus9gw4p
+2024-07-27 13:10:34,010 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: poll_exit
+2024-07-27 13:10:34,098 INFO    Thread-12 :68478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/preprocess/wandb/run-20240727_131024-dqtti616/files/output.log
+2024-07-27 13:10:34,492 INFO    SenderThread:68478 [sender.py:send_artifact():1443] sent artifact job-https___github.com_LindsayMoir_nd0821-c2-build-model-workfl..ase-and-deploy_exercises_exercise_14_solution_preprocess_run.py - {'id': 'QXJ0aWZhY3Q6MTA0NzUwMzUyMg==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMzMDU0MTQ4NA==', 'latestArtifact': None}}
+2024-07-27 13:10:34,494 DEBUG   SenderThread:68478 [sender.py:send_request():405] send_request: defer
+2024-07-27 13:10:34,494 INFO    SenderThread:68478 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-07-27 13:10:34,495 INFO    SenderThread:68478 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-07-27 13:10:35,148 INFO    SenderThread:68478 [dir_watcher.py:finish():388] scan: /mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/preprocess/wandb/run-20240727_131024-dqtti616/files
+2024-07-27 13:10:35,153 INFO    SenderThread:68478 [dir_watcher.py:finish():402] scan save: /mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/preprocess/wandb/run-20240727_131024-dqtti616/files/conda-environment.yaml conda-environment.yaml
+2024-07-27 13:10:35,158 INFO    SenderThread:68478 [dir_watcher.py:finish():402] scan save: /mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/preprocess/wandb/run-20240727_131024-dqtti616/files/config.yaml config.yaml
+2024-07-27 13:10:35,167 INFO    SenderThread:68478 [dir_watcher.py:finish():402] scan save: /mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/preprocess/wandb/run-20240727_131024-dqtti616/files/output.log output.log
+2024-07-27 13:10:35,176 INFO    SenderThread:68478 [dir_watcher.py:finish():402] scan save: /mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/preprocess/wandb/run-20240727_131024-dqtti616/files/requirements.txt requirements.txt
+2024-07-27 13:10:35,183 INFO    SenderThread:68478 [dir_watcher.py:finish():402] scan save: /mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/preprocess/wandb/run-20240727_131024-dqtti616/files/wandb-metadata.json wandb-metadata.json
+2024-07-27 13:10:35,183 INFO    SenderThread:68478 [dir_watcher.py:finish():402] scan save: /mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/preprocess/wandb/run-20240727_131024-dqtti616/files/wandb-summary.json wandb-summary.json
+2024-07-27 13:10:35,189 INFO    SenderThread:68478 [sender.py:transition_state():613] send defer: 10
+2024-07-27 13:10:35,189 DEBUG   SenderThread:68478 [sender.py:send_request():405] send_request: poll_exit
+2024-07-27 13:10:35,190 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: defer
+2024-07-27 13:10:35,190 INFO    HandlerThread:68478 [handler.py:handle_request_defer():172] handle defer: 10
+2024-07-27 13:10:35,191 DEBUG   SenderThread:68478 [sender.py:send_request():405] send_request: defer
+2024-07-27 13:10:35,193 INFO    SenderThread:68478 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-07-27 13:10:35,193 INFO    SenderThread:68478 [file_pusher.py:finish():172] shutting down file pusher
+2024-07-27 13:10:35,397 INFO    wandb-upload_0:68478 [upload_job.py:push():131] Uploaded file /mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/preprocess/wandb/run-20240727_131024-dqtti616/files/conda-environment.yaml
+2024-07-27 13:10:35,411 INFO    wandb-upload_1:68478 [upload_job.py:push():131] Uploaded file /mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/preprocess/wandb/run-20240727_131024-dqtti616/files/config.yaml
+2024-07-27 13:10:35,512 INFO    wandb-upload_2:68478 [upload_job.py:push():131] Uploaded file /mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/preprocess/wandb/run-20240727_131024-dqtti616/files/output.log
+2024-07-27 13:10:35,526 INFO    wandb-upload_3:68478 [upload_job.py:push():131] Uploaded file /mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/preprocess/wandb/run-20240727_131024-dqtti616/files/requirements.txt
+2024-07-27 13:10:35,526 INFO    wandb-upload_4:68478 [upload_job.py:push():131] Uploaded file /mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/preprocess/wandb/run-20240727_131024-dqtti616/files/wandb-summary.json
+2024-07-27 13:10:35,727 INFO    Thread-11 (_thread_body):68478 [sender.py:transition_state():613] send defer: 11
+2024-07-27 13:10:35,728 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: defer
+2024-07-27 13:10:35,728 INFO    HandlerThread:68478 [handler.py:handle_request_defer():172] handle defer: 11
+2024-07-27 13:10:35,729 DEBUG   SenderThread:68478 [sender.py:send_request():405] send_request: defer
+2024-07-27 13:10:35,730 INFO    SenderThread:68478 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-07-27 13:10:35,730 INFO    SenderThread:68478 [file_pusher.py:join():178] waiting for file pusher
+2024-07-27 13:10:35,730 INFO    SenderThread:68478 [sender.py:transition_state():613] send defer: 12
+2024-07-27 13:10:35,731 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: defer
+2024-07-27 13:10:35,731 INFO    HandlerThread:68478 [handler.py:handle_request_defer():172] handle defer: 12
+2024-07-27 13:10:35,732 DEBUG   SenderThread:68478 [sender.py:send_request():405] send_request: defer
+2024-07-27 13:10:35,732 INFO    SenderThread:68478 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-07-27 13:10:35,733 INFO    SenderThread:68478 [file_stream.py:finish():595] file stream finish called
+2024-07-27 13:10:35,808 INFO    SenderThread:68478 [file_stream.py:finish():599] file stream finish is done
+2024-07-27 13:10:35,808 INFO    SenderThread:68478 [sender.py:transition_state():613] send defer: 13
+2024-07-27 13:10:35,809 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: defer
+2024-07-27 13:10:35,809 INFO    HandlerThread:68478 [handler.py:handle_request_defer():172] handle defer: 13
+2024-07-27 13:10:35,810 DEBUG   SenderThread:68478 [sender.py:send_request():405] send_request: defer
+2024-07-27 13:10:35,811 INFO    SenderThread:68478 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-07-27 13:10:35,811 INFO    SenderThread:68478 [sender.py:transition_state():613] send defer: 14
+2024-07-27 13:10:35,812 DEBUG   SenderThread:68478 [sender.py:send():378] send: final
+2024-07-27 13:10:35,812 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: defer
+2024-07-27 13:10:35,812 DEBUG   SenderThread:68478 [sender.py:send():378] send: footer
+2024-07-27 13:10:35,813 INFO    HandlerThread:68478 [handler.py:handle_request_defer():172] handle defer: 14
+2024-07-27 13:10:35,814 DEBUG   SenderThread:68478 [sender.py:send_request():405] send_request: defer
+2024-07-27 13:10:35,815 INFO    SenderThread:68478 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-07-27 13:10:35,816 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: poll_exit
+2024-07-27 13:10:35,817 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: poll_exit
+2024-07-27 13:10:35,818 DEBUG   SenderThread:68478 [sender.py:send_request():405] send_request: poll_exit
+2024-07-27 13:10:35,818 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: server_info
+2024-07-27 13:10:35,818 DEBUG   SenderThread:68478 [sender.py:send_request():405] send_request: poll_exit
+2024-07-27 13:10:35,819 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: get_summary
+2024-07-27 13:10:35,820 DEBUG   SenderThread:68478 [sender.py:send_request():405] send_request: server_info
+2024-07-27 13:10:35,821 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: sampled_history
+2024-07-27 13:10:35,824 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: internal_messages
+2024-07-27 13:10:35,825 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: job_info
+2024-07-27 13:10:35,885 DEBUG   SenderThread:68478 [sender.py:send_request():405] send_request: job_info
+2024-07-27 13:10:35,886 INFO    MainThread:68478 [wandb_run.py:_footer_history_summary_info():3851] rendering history
+2024-07-27 13:10:35,886 INFO    MainThread:68478 [wandb_run.py:_footer_history_summary_info():3883] rendering summary
+2024-07-27 13:10:35,887 INFO    MainThread:68478 [wandb_run.py:_footer_sync_info():3810] logging synced files
+2024-07-27 13:10:35,888 DEBUG   HandlerThread:68478 [handler.py:handle_request():146] handle_request: shutdown
+2024-07-27 13:10:35,888 INFO    HandlerThread:68478 [handler.py:finish():869] shutting down handler
+2024-07-27 13:10:36,826 INFO    WriterThread:68478 [datastore.py:close():296] close: /mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/preprocess/wandb/run-20240727_131024-dqtti616/run-dqtti616.wandb
+2024-07-27 13:10:36,886 INFO    SenderThread:68478 [sender.py:finish():1521] shutting down sender
+2024-07-27 13:10:36,886 INFO    SenderThread:68478 [file_pusher.py:finish():172] shutting down file pusher
+2024-07-27 13:10:36,887 INFO    SenderThread:68478 [file_pusher.py:join():178] waiting for file pusher
