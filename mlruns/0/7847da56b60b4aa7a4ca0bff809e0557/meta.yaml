@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/7847da56b60b4aa7a4ca0bff809e0557/artifacts
+end_time: 1722123949476
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7847da56b60b4aa7a4ca0bff809e0557
+run_name: dapper-carp-694
+run_uuid: 7847da56b60b4aa7a4ca0bff809e0557
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722123925865
+status: 3
+tags: []
+user_id: lindsay

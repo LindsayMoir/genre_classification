@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/e102c88022ee4551b49f4d0432b1bbef/artifacts
+end_time: 1722120336781
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e102c88022ee4551b49f4d0432b1bbef
+run_name: persistent-lark-736
+run_uuid: e102c88022ee4551b49f4d0432b1bbef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722120316159
+status: 4
+tags: []
+user_id: lindsay

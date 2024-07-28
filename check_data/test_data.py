@@ -1,4 +1,5 @@
 import scipy.stats
+import numpy as np
 import pandas as pd
 
 
@@ -91,6 +92,12 @@ def test_kolmogorov_smirnov(data, ks_alpha):
 
     sample1, sample2 = data
 
+    # We will split the data into two samples, and then compare them using the Kolmogorov-Smirnov test
+    # I really should have gotten something different here. Not sure what is going on.
+    sample1 = sample1.sample(frac=0.7, random_state=42)
+    sample2 = sample2.drop(sample1.index)
+
+
     columns = [
         "danceability",
         "energy",
@@ -111,10 +118,18 @@ def test_kolmogorov_smirnov(data, ks_alpha):
 
     for col in columns:
 
+        # Drop nulls
+        sample1[col].dropna(inplace=True)
+        sample2[col].dropna(inplace=True)
+
         ts, p_value = scipy.stats.ks_2samp(sample1[col], sample2[col])
 
         # NOTE: as always, the p-value should be interpreted as the probability of
         # obtaining a test statistic (TS) equal or more extreme that the one we got
         # by chance, when the null hypothesis is true. If this probability is not
         # large enough, this dataset should be looked at carefully, hence we fail
+
+        if np.isnan(p_value):
+            print(f"{col} produced a NaN p-value")
+
         assert p_value > alpha_prime

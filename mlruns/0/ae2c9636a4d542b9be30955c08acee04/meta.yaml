@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/ae2c9636a4d542b9be30955c08acee04/artifacts
+end_time: 1722125979906
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ae2c9636a4d542b9be30955c08acee04
+run_name: orderly-mink-721
+run_uuid: ae2c9636a4d542b9be30955c08acee04
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722125964622
+status: 3
+tags: []
+user_id: lindsay

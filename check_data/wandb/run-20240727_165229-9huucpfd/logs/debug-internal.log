@@ -1,0 +1,204 @@
+2024-07-27 16:52:29,524 INFO    StreamThr :23065 [internal.py:wandb_internal():85] W&B internal server running at pid: 23065, started at: 2024-07-27 16:52:29.521659
+2024-07-27 16:52:29,527 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: status
+2024-07-27 16:52:29,533 INFO    WriterThread:23065 [datastore.py:open_for_write():87] open: /mnt/d/Github/genre_classification/check_data/wandb/run-20240727_165229-9huucpfd/run-9huucpfd.wandb
+2024-07-27 16:52:29,536 DEBUG   SenderThread:23065 [sender.py:send():379] send: header
+2024-07-27 16:52:29,623 DEBUG   SenderThread:23065 [sender.py:send():379] send: run
+2024-07-27 16:52:29,851 INFO    SenderThread:23065 [dir_watcher.py:__init__():211] watching files in: /mnt/d/Github/genre_classification/check_data/wandb/run-20240727_165229-9huucpfd/files
+2024-07-27 16:52:29,852 INFO    SenderThread:23065 [sender.py:_start_run_threads():1188] run started: 9huucpfd with start time 1722124349.522488
+2024-07-27 16:52:29,872 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: check_version
+2024-07-27 16:52:29,873 DEBUG   SenderThread:23065 [sender.py:send_request():406] send_request: check_version
+2024-07-27 16:52:29,989 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: run_start
+2024-07-27 16:52:30,540 DEBUG   HandlerThread:23065 [system_info.py:__init__():26] System info init
+2024-07-27 16:52:30,540 DEBUG   HandlerThread:23065 [system_info.py:__init__():41] System info init done
+2024-07-27 16:52:30,540 INFO    HandlerThread:23065 [system_monitor.py:start():194] Starting system monitor
+2024-07-27 16:52:30,541 INFO    SystemMonitor:23065 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-27 16:52:30,541 INFO    HandlerThread:23065 [system_monitor.py:probe():214] Collecting system info
+2024-07-27 16:52:30,542 INFO    SystemMonitor:23065 [interfaces.py:start():188] Started cpu monitoring
+2024-07-27 16:52:30,544 INFO    SystemMonitor:23065 [interfaces.py:start():188] Started disk monitoring
+2024-07-27 16:52:30,546 INFO    SystemMonitor:23065 [interfaces.py:start():188] Started gpu monitoring
+2024-07-27 16:52:30,549 INFO    SystemMonitor:23065 [interfaces.py:start():188] Started memory monitoring
+2024-07-27 16:52:30,551 INFO    SystemMonitor:23065 [interfaces.py:start():188] Started network monitoring
+2024-07-27 16:52:30,565 DEBUG   HandlerThread:23065 [system_info.py:probe():152] Probing system
+2024-07-27 16:52:30,582 ERROR   gpu       :23065 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-27 16:52:30,582 ERROR   gpu       :23065 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-27 16:52:30,668 DEBUG   HandlerThread:23065 [system_info.py:_probe_git():137] Probing git
+2024-07-27 16:52:30,763 DEBUG   HandlerThread:23065 [system_info.py:_probe_git():145] Probing git done
+2024-07-27 16:52:30,763 DEBUG   HandlerThread:23065 [system_info.py:probe():200] Probing system done
+2024-07-27 16:52:30,764 DEBUG   HandlerThread:23065 [system_monitor.py:probe():223] {'os': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.10', 'python': '3.8.19', 'heartbeatAt': '2024-07-27T23:52:30.565673', 'startedAt': '2024-07-27T23:52:29.438680', 'docker': None, 'cuda': None, 'args': ('-s', '-vv', '.', '--reference_artifact', 'exercise_14/preprocessed_data.csv:latest', '--sample_artifact', 'preprocessed_data.csv:latest', '--ks_alpha', '0.05'), 'state': 'running', 'program': '/home/lindsay/miniconda3/envs/mlflow-990d7acb4feabaf360925657aa7386038e8ad2ac/bin/pytest', 'codePathLocal': None, 'git': {'remote': 'https://github.com/LindsayMoir/genre_classification.git', 'commit': 'a31925a64c0d0f6538b60584dbc039da22aaa1db'}, 'email': 'tragoes@gmail.com', 'root': '/mnt/d/Github/genre_classification', 'host': 'DESKTOP-LDCE0AL', 'username': 'lindsay', 'executable': '/home/lindsay/miniconda3/envs/mlflow-990d7acb4feabaf360925657aa7386038e8ad2ac/bin/python3.8', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2592.0, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2592.0, 'min': 0.0, 'max': 0.0}, {'current': 2592.0, 'min': 0.0, 'max': 0.0}, {'current': 2592.0, 'min': 0.0, 'max': 0.0}, {'current': 2592.0, 'min': 0.0, 'max': 0.0}, {'current': 2592.0, 'min': 0.0, 'max': 0.0}, {'current': 2592.0, 'min': 0.0, 'max': 0.0}, {'current': 2592.0, 'min': 0.0, 'max': 0.0}, {'current': 2592.0, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 1006.853931427002, 'used': 40.10708236694336}}, 'gpu': 'NVIDIA GeForce GTX 960M', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 960M', 'memory_total': 2147483648}], 'memory': {'total': 15.54885482788086}}
+2024-07-27 16:52:30,764 INFO    HandlerThread:23065 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-27 16:52:30,764 INFO    HandlerThread:23065 [system_monitor.py:probe():227] Publishing system info
+2024-07-27 16:52:30,764 DEBUG   HandlerThread:23065 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-07-27 16:52:30,857 INFO    Thread-12 :23065 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/d/Github/genre_classification/check_data/wandb/run-20240727_165229-9huucpfd/files/conda-environment.yaml
+2024-07-27 16:52:31,586 DEBUG   HandlerThread:23065 [system_info.py:_save_conda():224] Saving conda packages done
+2024-07-27 16:52:31,592 INFO    HandlerThread:23065 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-27 16:52:31,596 DEBUG   SenderThread:23065 [sender.py:send():379] send: files
+2024-07-27 16:52:31,596 INFO    SenderThread:23065 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-07-27 16:52:31,640 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: python_packages
+2024-07-27 16:52:31,641 DEBUG   SenderThread:23065 [sender.py:send_request():406] send_request: python_packages
+2024-07-27 16:52:31,646 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-27 16:52:31,648 DEBUG   SenderThread:23065 [sender.py:send():379] send: telemetry
+2024-07-27 16:52:31,649 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-27 16:52:31,650 DEBUG   SenderThread:23065 [sender.py:send_request():406] send_request: stop_status
+2024-07-27 16:52:31,861 INFO    Thread-12 :23065 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/d/Github/genre_classification/check_data/wandb/run-20240727_165229-9huucpfd/files/conda-environment.yaml
+2024-07-27 16:52:31,862 INFO    Thread-12 :23065 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/d/Github/genre_classification/check_data/wandb/run-20240727_165229-9huucpfd/files/wandb-metadata.json
+2024-07-27 16:52:31,863 INFO    Thread-12 :23065 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/d/Github/genre_classification/check_data/wandb/run-20240727_165229-9huucpfd/files/requirements.txt
+2024-07-27 16:52:31,864 INFO    Thread-12 :23065 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/d/Github/genre_classification/check_data/wandb/run-20240727_165229-9huucpfd/files/output.log
+2024-07-27 16:52:32,041 INFO    wandb-upload_0:23065 [upload_job.py:push():130] Uploaded file /tmp/tmpltvan60gwandb/r8j6rh70-wandb-metadata.json
+2024-07-27 16:52:32,584 ERROR   gpu       :23065 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-27 16:52:32,585 ERROR   gpu       :23065 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-27 16:52:32,642 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-27 16:52:33,642 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-27 16:52:33,871 INFO    Thread-12 :23065 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/d/Github/genre_classification/check_data/wandb/run-20240727_165229-9huucpfd/files/output.log
+2024-07-27 16:52:34,587 ERROR   gpu       :23065 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-27 16:52:34,587 ERROR   gpu       :23065 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-27 16:52:34,642 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-27 16:52:34,840 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: status_report
+2024-07-27 16:52:35,642 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-27 16:52:36,591 ERROR   gpu       :23065 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-27 16:52:36,592 ERROR   gpu       :23065 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-27 16:52:36,645 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-27 16:52:36,667 DEBUG   SenderThread:23065 [sender.py:send():379] send: use_artifact
+2024-07-27 16:52:37,643 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-27 16:52:37,901 DEBUG   SenderThread:23065 [sender.py:send():379] send: use_artifact
+2024-07-27 16:52:37,913 INFO    Thread-12 :23065 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/d/Github/genre_classification/check_data/wandb/run-20240727_165229-9huucpfd/files/output.log
+2024-07-27 16:52:38,594 ERROR   gpu       :23065 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-27 16:52:38,595 ERROR   gpu       :23065 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-27 16:52:38,643 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-27 16:52:38,724 DEBUG   SenderThread:23065 [sender.py:send():379] send: exit
+2024-07-27 16:52:38,725 INFO    SenderThread:23065 [sender.py:send_exit():586] handling exit code: 0
+2024-07-27 16:52:38,725 INFO    SenderThread:23065 [sender.py:send_exit():588] handling runtime: 8
+2024-07-27 16:52:38,730 INFO    SenderThread:23065 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-27 16:52:38,732 INFO    SenderThread:23065 [sender.py:send_exit():594] send defer
+2024-07-27 16:52:38,732 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: defer
+2024-07-27 16:52:38,733 INFO    HandlerThread:23065 [handler.py:handle_request_defer():184] handle defer: 0
+2024-07-27 16:52:38,733 DEBUG   SenderThread:23065 [sender.py:send_request():406] send_request: defer
+2024-07-27 16:52:38,734 INFO    SenderThread:23065 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-07-27 16:52:38,734 INFO    SenderThread:23065 [sender.py:transition_state():614] send defer: 1
+2024-07-27 16:52:38,735 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: defer
+2024-07-27 16:52:38,735 INFO    HandlerThread:23065 [handler.py:handle_request_defer():184] handle defer: 1
+2024-07-27 16:52:38,736 DEBUG   SenderThread:23065 [sender.py:send_request():406] send_request: defer
+2024-07-27 16:52:38,736 INFO    SenderThread:23065 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-07-27 16:52:38,737 INFO    SenderThread:23065 [sender.py:transition_state():614] send defer: 2
+2024-07-27 16:52:38,737 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: defer
+2024-07-27 16:52:38,737 INFO    HandlerThread:23065 [handler.py:handle_request_defer():184] handle defer: 2
+2024-07-27 16:52:38,738 INFO    HandlerThread:23065 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-27 16:52:38,739 DEBUG   SystemMonitor:23065 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-27 16:52:38,739 INFO    HandlerThread:23065 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-27 16:52:38,739 DEBUG   SystemMonitor:23065 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-27 16:52:38,740 INFO    HandlerThread:23065 [interfaces.py:finish():200] Joined disk monitor
+2024-07-27 16:52:38,741 DEBUG   SystemMonitor:23065 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-27 16:52:38,751 ERROR   gpu       :23065 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2024-07-27 16:52:38,752 INFO    HandlerThread:23065 [interfaces.py:finish():200] Joined gpu monitor
+2024-07-27 16:52:38,752 INFO    HandlerThread:23065 [interfaces.py:finish():200] Joined memory monitor
+2024-07-27 16:52:38,753 INFO    HandlerThread:23065 [interfaces.py:finish():200] Joined network monitor
+2024-07-27 16:52:38,754 DEBUG   SenderThread:23065 [sender.py:send_request():406] send_request: defer
+2024-07-27 16:52:38,754 INFO    SenderThread:23065 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-07-27 16:52:38,755 INFO    SenderThread:23065 [sender.py:transition_state():614] send defer: 3
+2024-07-27 16:52:38,755 DEBUG   SenderThread:23065 [sender.py:send():379] send: stats
+2024-07-27 16:52:38,755 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: defer
+2024-07-27 16:52:38,756 INFO    HandlerThread:23065 [handler.py:handle_request_defer():184] handle defer: 3
+2024-07-27 16:52:38,757 DEBUG   SenderThread:23065 [sender.py:send_request():406] send_request: defer
+2024-07-27 16:52:38,757 INFO    SenderThread:23065 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-07-27 16:52:38,758 INFO    SenderThread:23065 [sender.py:transition_state():614] send defer: 4
+2024-07-27 16:52:38,758 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: defer
+2024-07-27 16:52:38,758 INFO    HandlerThread:23065 [handler.py:handle_request_defer():184] handle defer: 4
+2024-07-27 16:52:38,759 DEBUG   SenderThread:23065 [sender.py:send_request():406] send_request: defer
+2024-07-27 16:52:38,759 INFO    SenderThread:23065 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-07-27 16:52:38,760 INFO    SenderThread:23065 [sender.py:transition_state():614] send defer: 5
+2024-07-27 16:52:38,760 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: defer
+2024-07-27 16:52:38,761 INFO    HandlerThread:23065 [handler.py:handle_request_defer():184] handle defer: 5
+2024-07-27 16:52:38,761 DEBUG   SenderThread:23065 [sender.py:send():379] send: summary
+2024-07-27 16:52:38,765 INFO    SenderThread:23065 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-27 16:52:38,766 DEBUG   SenderThread:23065 [sender.py:send_request():406] send_request: defer
+2024-07-27 16:52:38,767 INFO    SenderThread:23065 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-07-27 16:52:38,767 INFO    SenderThread:23065 [sender.py:transition_state():614] send defer: 6
+2024-07-27 16:52:38,768 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: defer
+2024-07-27 16:52:38,768 INFO    HandlerThread:23065 [handler.py:handle_request_defer():184] handle defer: 6
+2024-07-27 16:52:38,769 DEBUG   SenderThread:23065 [sender.py:send_request():406] send_request: defer
+2024-07-27 16:52:38,769 INFO    SenderThread:23065 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-07-27 16:52:38,774 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: status_report
+2024-07-27 16:52:38,879 INFO    SenderThread:23065 [sender.py:transition_state():614] send defer: 7
+2024-07-27 16:52:38,880 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: defer
+2024-07-27 16:52:38,880 INFO    HandlerThread:23065 [handler.py:handle_request_defer():184] handle defer: 7
+2024-07-27 16:52:38,881 DEBUG   SenderThread:23065 [sender.py:send_request():406] send_request: defer
+2024-07-27 16:52:38,882 INFO    SenderThread:23065 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-07-27 16:52:38,922 INFO    Thread-12 :23065 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/d/Github/genre_classification/check_data/wandb/run-20240727_165229-9huucpfd/files/config.yaml
+2024-07-27 16:52:38,923 INFO    Thread-12 :23065 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/d/Github/genre_classification/check_data/wandb/run-20240727_165229-9huucpfd/files/wandb-summary.json
+2024-07-27 16:52:39,723 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-27 16:52:39,862 INFO    SenderThread:23065 [sender.py:transition_state():614] send defer: 8
+2024-07-27 16:52:39,863 DEBUG   SenderThread:23065 [sender.py:send_request():406] send_request: poll_exit
+2024-07-27 16:52:39,863 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: defer
+2024-07-27 16:52:39,864 INFO    HandlerThread:23065 [handler.py:handle_request_defer():184] handle defer: 8
+2024-07-27 16:52:39,865 DEBUG   SenderThread:23065 [sender.py:send_request():406] send_request: defer
+2024-07-27 16:52:39,865 INFO    SenderThread:23065 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-07-27 16:52:39,866 INFO    SenderThread:23065 [job_builder.py:build():440] Attempting to build job artifact
+2024-07-27 16:52:39,873 INFO    SenderThread:23065 [job_builder.py:_get_source_type():569] is repo sourced job
+2024-07-27 16:52:39,873 WARNING SenderThread:23065 [job_builder.py:_log_if_verbose():274] No program path found, not creating job artifact. See https://docs.wandb.ai/guides/launch/create-job
+2024-07-27 16:52:39,874 INFO    SenderThread:23065 [sender.py:transition_state():614] send defer: 9
+2024-07-27 16:52:39,874 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: defer
+2024-07-27 16:52:39,875 INFO    HandlerThread:23065 [handler.py:handle_request_defer():184] handle defer: 9
+2024-07-27 16:52:39,875 DEBUG   SenderThread:23065 [sender.py:send_request():406] send_request: defer
+2024-07-27 16:52:39,876 INFO    SenderThread:23065 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-07-27 16:52:39,876 INFO    SenderThread:23065 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-07-27 16:52:39,968 INFO    SenderThread:23065 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/d/Github/genre_classification/check_data/wandb/run-20240727_165229-9huucpfd/files/output.log
+2024-07-27 16:52:39,972 INFO    SenderThread:23065 [dir_watcher.py:finish():388] scan: /mnt/d/Github/genre_classification/check_data/wandb/run-20240727_165229-9huucpfd/files
+2024-07-27 16:52:39,976 INFO    SenderThread:23065 [dir_watcher.py:finish():402] scan save: /mnt/d/Github/genre_classification/check_data/wandb/run-20240727_165229-9huucpfd/files/conda-environment.yaml conda-environment.yaml
+2024-07-27 16:52:39,986 INFO    SenderThread:23065 [dir_watcher.py:finish():402] scan save: /mnt/d/Github/genre_classification/check_data/wandb/run-20240727_165229-9huucpfd/files/config.yaml config.yaml
+2024-07-27 16:52:39,995 INFO    SenderThread:23065 [dir_watcher.py:finish():402] scan save: /mnt/d/Github/genre_classification/check_data/wandb/run-20240727_165229-9huucpfd/files/output.log output.log
+2024-07-27 16:52:40,001 INFO    SenderThread:23065 [dir_watcher.py:finish():402] scan save: /mnt/d/Github/genre_classification/check_data/wandb/run-20240727_165229-9huucpfd/files/requirements.txt requirements.txt
+2024-07-27 16:52:40,008 INFO    SenderThread:23065 [dir_watcher.py:finish():402] scan save: /mnt/d/Github/genre_classification/check_data/wandb/run-20240727_165229-9huucpfd/files/wandb-metadata.json wandb-metadata.json
+2024-07-27 16:52:40,008 INFO    SenderThread:23065 [dir_watcher.py:finish():402] scan save: /mnt/d/Github/genre_classification/check_data/wandb/run-20240727_165229-9huucpfd/files/wandb-summary.json wandb-summary.json
+2024-07-27 16:52:40,014 INFO    SenderThread:23065 [sender.py:transition_state():614] send defer: 10
+2024-07-27 16:52:40,015 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: defer
+2024-07-27 16:52:40,015 INFO    HandlerThread:23065 [handler.py:handle_request_defer():184] handle defer: 10
+2024-07-27 16:52:40,016 DEBUG   SenderThread:23065 [sender.py:send_request():406] send_request: defer
+2024-07-27 16:52:40,016 INFO    SenderThread:23065 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-07-27 16:52:40,019 INFO    SenderThread:23065 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-27 16:52:40,252 INFO    wandb-upload_0:23065 [upload_job.py:push():130] Uploaded file /mnt/d/Github/genre_classification/check_data/wandb/run-20240727_165229-9huucpfd/files/conda-environment.yaml
+2024-07-27 16:52:40,275 INFO    wandb-upload_1:23065 [upload_job.py:push():130] Uploaded file /mnt/d/Github/genre_classification/check_data/wandb/run-20240727_165229-9huucpfd/files/config.yaml
+2024-07-27 16:52:40,311 INFO    wandb-upload_3:23065 [upload_job.py:push():130] Uploaded file /mnt/d/Github/genre_classification/check_data/wandb/run-20240727_165229-9huucpfd/files/requirements.txt
+2024-07-27 16:52:40,332 INFO    wandb-upload_2:23065 [upload_job.py:push():130] Uploaded file /mnt/d/Github/genre_classification/check_data/wandb/run-20240727_165229-9huucpfd/files/output.log
+2024-07-27 16:52:40,356 INFO    wandb-upload_4:23065 [upload_job.py:push():130] Uploaded file /mnt/d/Github/genre_classification/check_data/wandb/run-20240727_165229-9huucpfd/files/wandb-summary.json
+2024-07-27 16:52:40,557 INFO    Thread-11 :23065 [sender.py:transition_state():614] send defer: 11
+2024-07-27 16:52:40,559 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: defer
+2024-07-27 16:52:40,560 INFO    HandlerThread:23065 [handler.py:handle_request_defer():184] handle defer: 11
+2024-07-27 16:52:40,561 DEBUG   SenderThread:23065 [sender.py:send_request():406] send_request: defer
+2024-07-27 16:52:40,562 INFO    SenderThread:23065 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-07-27 16:52:40,563 INFO    SenderThread:23065 [file_pusher.py:join():175] waiting for file pusher
+2024-07-27 16:52:40,564 INFO    SenderThread:23065 [sender.py:transition_state():614] send defer: 12
+2024-07-27 16:52:40,566 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: defer
+2024-07-27 16:52:40,566 INFO    HandlerThread:23065 [handler.py:handle_request_defer():184] handle defer: 12
+2024-07-27 16:52:40,568 DEBUG   SenderThread:23065 [sender.py:send_request():406] send_request: defer
+2024-07-27 16:52:40,569 INFO    SenderThread:23065 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-07-27 16:52:40,570 INFO    SenderThread:23065 [file_stream.py:finish():601] file stream finish called
+2024-07-27 16:52:40,659 INFO    SenderThread:23065 [file_stream.py:finish():605] file stream finish is done
+2024-07-27 16:52:40,660 INFO    SenderThread:23065 [sender.py:transition_state():614] send defer: 13
+2024-07-27 16:52:40,661 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: defer
+2024-07-27 16:52:40,662 INFO    HandlerThread:23065 [handler.py:handle_request_defer():184] handle defer: 13
+2024-07-27 16:52:40,664 DEBUG   SenderThread:23065 [sender.py:send_request():406] send_request: defer
+2024-07-27 16:52:40,665 INFO    SenderThread:23065 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-07-27 16:52:40,666 INFO    SenderThread:23065 [sender.py:transition_state():614] send defer: 14
+2024-07-27 16:52:40,668 DEBUG   SenderThread:23065 [sender.py:send():379] send: final
+2024-07-27 16:52:40,668 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: defer
+2024-07-27 16:52:40,669 DEBUG   SenderThread:23065 [sender.py:send():379] send: footer
+2024-07-27 16:52:40,670 INFO    HandlerThread:23065 [handler.py:handle_request_defer():184] handle defer: 14
+2024-07-27 16:52:40,672 DEBUG   SenderThread:23065 [sender.py:send_request():406] send_request: defer
+2024-07-27 16:52:40,673 INFO    SenderThread:23065 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-07-27 16:52:40,676 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-27 16:52:40,678 DEBUG   SenderThread:23065 [sender.py:send_request():406] send_request: poll_exit
+2024-07-27 16:52:40,679 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: server_info
+2024-07-27 16:52:40,681 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-27 16:52:40,682 DEBUG   SenderThread:23065 [sender.py:send_request():406] send_request: server_info
+2024-07-27 16:52:40,682 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: get_summary
+2024-07-27 16:52:40,688 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: sampled_history
+2024-07-27 16:52:40,688 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-27 16:52:40,743 DEBUG   SenderThread:23065 [sender.py:send_request():406] send_request: poll_exit
+2024-07-27 16:52:40,744 INFO    MainThread:23065 [wandb_run.py:_footer_history_summary_info():3991] rendering history
+2024-07-27 16:52:40,744 INFO    MainThread:23065 [wandb_run.py:_footer_history_summary_info():4023] rendering summary
+2024-07-27 16:52:40,745 INFO    MainThread:23065 [wandb_run.py:_footer_sync_info():3950] logging synced files
+2024-07-27 16:52:40,746 DEBUG   HandlerThread:23065 [handler.py:handle_request():158] handle_request: shutdown
+2024-07-27 16:52:40,747 INFO    HandlerThread:23065 [handler.py:finish():882] shutting down handler
+2024-07-27 16:52:41,683 INFO    WriterThread:23065 [datastore.py:close():296] close: /mnt/d/Github/genre_classification/check_data/wandb/run-20240727_165229-9huucpfd/run-9huucpfd.wandb
+2024-07-27 16:52:41,744 INFO    SenderThread:23065 [sender.py:finish():1608] shutting down sender
+2024-07-27 16:52:41,745 INFO    SenderThread:23065 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-27 16:52:41,746 INFO    SenderThread:23065 [file_pusher.py:join():175] waiting for file pusher

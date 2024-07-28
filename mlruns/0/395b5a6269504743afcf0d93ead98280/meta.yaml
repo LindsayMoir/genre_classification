@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/395b5a6269504743afcf0d93ead98280/artifacts
+end_time: 1722123949173
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 395b5a6269504743afcf0d93ead98280
+run_name: sincere-gnat-185
+run_uuid: 395b5a6269504743afcf0d93ead98280
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722123929904
+status: 3
+tags: []
+user_id: lindsay

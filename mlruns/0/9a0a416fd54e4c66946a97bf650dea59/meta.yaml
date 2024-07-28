@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/9a0a416fd54e4c66946a97bf650dea59/artifacts
+end_time: 1722124621141
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9a0a416fd54e4c66946a97bf650dea59
+run_name: efficient-lamb-789
+run_uuid: 9a0a416fd54e4c66946a97bf650dea59
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722124536578
+status: 3
+tags: []
+user_id: lindsay

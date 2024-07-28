@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/e553021c6ca1485682f4d90b8a995936/artifacts
+end_time: 1722120336312
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e553021c6ca1485682f4d90b8a995936
+run_name: salty-fox-642
+run_uuid: e553021c6ca1485682f4d90b8a995936
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722120320354
+status: 4
+tags: []
+user_id: lindsay

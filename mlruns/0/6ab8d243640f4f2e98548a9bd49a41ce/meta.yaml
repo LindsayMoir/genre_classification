@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/6ab8d243640f4f2e98548a9bd49a41ce/artifacts
+end_time: 1722119670021
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6ab8d243640f4f2e98548a9bd49a41ce
+run_name: defiant-roo-799
+run_uuid: 6ab8d243640f4f2e98548a9bd49a41ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722119653277
+status: 4
+tags: []
+user_id: lindsay

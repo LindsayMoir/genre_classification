@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/bd6bddea43f047b081909bbbd5ee821f/artifacts
+end_time: 1722125964434
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bd6bddea43f047b081909bbbd5ee821f
+run_name: capable-grub-552
+run_uuid: bd6bddea43f047b081909bbbd5ee821f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722125948687
+status: 3
+tags: []
+user_id: lindsay

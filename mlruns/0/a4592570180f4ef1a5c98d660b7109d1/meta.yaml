@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/a4592570180f4ef1a5c98d660b7109d1/artifacts
+end_time: 1722122686289
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a4592570180f4ef1a5c98d660b7109d1
+run_name: unruly-frog-937
+run_uuid: a4592570180f4ef1a5c98d660b7109d1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722122670197
+status: 3
+tags: []
+user_id: lindsay

@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/6f44711cd392498b947a6b71d54eafca/artifacts
+end_time: 1722124097054
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6f44711cd392498b947a6b71d54eafca
+run_name: victorious-gnu-12
+run_uuid: 6f44711cd392498b947a6b71d54eafca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722124072671
+status: 3
+tags: []
+user_id: lindsay

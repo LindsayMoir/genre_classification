@@ -25,13 +25,6 @@ def go(args):
     logger.info("Dropping duplicates")
     df = df.drop_duplicates().reset_index(drop=True)
 
-    # Drop the rows with missing values
-    logger.info("Dropping missing values")
-    logger.info("df.shape before drop is: ", df.shape)
-    # Assuming that df is defined or imported correctly
-    df.dropna(inplace=True).reset_index()
-    logger.info("df.shape afer drop is: ", df.shape)
-
     # A minimal feature engineering step: a new feature
     logger.info("Feature engineering")
     df['title'].fillna(value='', inplace=True)

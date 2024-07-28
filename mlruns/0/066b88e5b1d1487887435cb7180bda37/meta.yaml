@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/066b88e5b1d1487887435cb7180bda37/artifacts
+end_time: 1722122219178
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 066b88e5b1d1487887435cb7180bda37
+run_name: casual-zebra-352
+run_uuid: 066b88e5b1d1487887435cb7180bda37
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722122203319
+status: 4
+tags: []
+user_id: lindsay

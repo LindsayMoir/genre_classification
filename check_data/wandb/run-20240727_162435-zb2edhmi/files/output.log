@@ -1,0 +1,94 @@
+[1m================================================= test session starts ==================================================
+platform linux -- Python 3.12.4, pytest-8.0.2, pluggy-1.5.0 -- /home/lindsay/miniconda3/envs/mlflow-d2c8f82fbae4739797a400248dc26c5b3a522318/bin/python3.12
+cachedir: .pytest_cache
+rootdir: /mnt/d/Github/genre_classification/check_data
+[1mcollected 4 items                                                                                                      
+test_data.py::test_column_presence_and_type [32mPASSED
+test_data.py::test_class_names [32mPASSED
+test_data.py::test_column_ranges [32mPASSED
+test_data.py::test_kolmogorov_smirnov sample1_10
+        Unnamed: 0  danceability  ...                          title                         text_feature
+3049         3049         0.520  ...                            NaN                              M.I.N.D
+37141       37141         0.276  ...             Liquid Drum & Bass                  Liquid Drum & Bass
+20174       20174         0.457  ...                            NaN        Tommy Lee (feat. Post Malone)
+16178       16178         0.566  ...                            NaN   Hood Star - Explicit Album Version
+11993       11993         0.900  ...                            NaN                                Vibes
+23137       23137         0.797  ...  Dirtybird//Techhouse by Mack\       Dirtybird//Techhouse by Mack\
+6803         6803         0.904  ...                            NaN                             Opp Shit
+12471       12471         0.565  ...                            NaN                 Everything I Ask For
+39470       39470         0.437  ...             Euphoric Hardstyle                  Euphoric Hardstyle
+4285         4285         0.396  ...                            NaN                                 Time
+[10 rows x 19 columns]
+sample2_10
+        Unnamed: 0  danceability  ...                          title                         text_feature
+3049         3049         0.520  ...                            NaN                              M.I.N.D
+37141       37141         0.276  ...             Liquid Drum & Bass                  Liquid Drum & Bass
+20174       20174         0.457  ...                            NaN        Tommy Lee (feat. Post Malone)
+16178       16178         0.566  ...                            NaN   Hood Star - Explicit Album Version
+11993       11993         0.900  ...                            NaN                                Vibes
+23137       23137         0.797  ...  Dirtybird//Techhouse by Mack\       Dirtybird//Techhouse by Mack\
+6803         6803         0.904  ...                            NaN                             Opp Shit
+12471       12471         0.565  ...                            NaN                 Everything I Ask For
+39470       39470         0.437  ...             Euphoric Hardstyle                  Euphoric Hardstyle
+4285         4285         0.396  ...                            NaN                                 Time
+[10 rows x 19 columns]
+Processing column: danceability
+0
+0
+Column danceability failed the test with p-value 1.0 and alpha_prime 0.005116196891823743
+Processing column: energy
+0
+0
+Column energy failed the test with p-value 1.0 and alpha_prime 0.005116196891823743
+Processing column: loudness
+9007
+9007
+Processing column: speechiness
+0
+0
+Column speechiness failed the test with p-value 1.0 and alpha_prime 0.005116196891823743
+Processing column: acousticness
+0
+0
+Column acousticness failed the test with p-value 1.0 and alpha_prime 0.005116196891823743
+Processing column: instrumentalness
+0
+0
+Column instrumentalness failed the test with p-value 1.0 and alpha_prime 0.005116196891823743
+Processing column: liveness
+0
+0
+Column liveness failed the test with p-value 1.0 and alpha_prime 0.005116196891823743
+Processing column: valence
+0
+0
+Column valence failed the test with p-value 1.0 and alpha_prime 0.005116196891823743
+Processing column: tempo
+0
+0
+Column tempo failed the test with p-value 1.0 and alpha_prime 0.005116196891823743
+Processing column: duration_ms
+0
+0
+Column duration_ms failed the test with p-value 1.0 and alpha_prime 0.005116196891823743
+[32mPASSED
+[33m=================================================== warnings summary ===================================================
+<frozen importlib._bootstrap>:488
+  <frozen importlib._bootstrap>:488: DeprecationWarning: Type google._upb._message.MessageMapContainer uses PyType_Spec with a metaclass that has custom tp_new. This is deprecated and will no longer be allowed in Python 3.14.
+<frozen importlib._bootstrap>:488
+  <frozen importlib._bootstrap>:488: DeprecationWarning: Type google._upb._message.ScalarMapContainer uses PyType_Spec with a metaclass that has custom tp_new. This is deprecated and will no longer be allowed in Python 3.14.
+../../../../../home/lindsay/miniconda3/envs/mlflow-d2c8f82fbae4739797a400248dc26c5b3a522318/lib/python3.12/site-packages/wandb/analytics/sentry.py:90
+  /home/lindsay/miniconda3/envs/mlflow-d2c8f82fbae4739797a400248dc26c5b3a522318/lib/python3.12/site-packages/wandb/analytics/sentry.py:90: SentryHubDeprecationWarning: `sentry_sdk.Hub` is deprecated and will be removed in a future major release. Please consult our 1.x to 2.x migration guide for details on how to migrate `Hub` usage to the new API: https://docs.sentry.io/platforms/python/migration/1.x-to-2.x
+    self.hub = sentry_sdk.Hub(client)
+../../../../../home/lindsay/miniconda3/envs/mlflow-d2c8f82fbae4739797a400248dc26c5b3a522318/lib/python3.12/site-packages/google/protobuf/internal/well_known_types.py:174: 7 warnings
+test_data.py: 118 warnings
+  /home/lindsay/miniconda3/envs/mlflow-d2c8f82fbae4739797a400248dc26c5b3a522318/lib/python3.12/site-packages/google/protobuf/internal/well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    self.FromDatetime(datetime.datetime.utcnow())
+test_data.py::test_column_presence_and_type
+  /mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/check_data/conftest.py:29: DtypeWarning: Columns (16) have mixed types. Specify dtype option on import or set low_memory=False.
+    sample1 = pd.read_csv(local_path)
+test_data.py::test_column_presence_and_type
+  /mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/check_data/conftest.py:32: DtypeWarning: Columns (16) have mixed types. Specify dtype option on import or set low_memory=False.
+    sample2 = pd.read_csv(local_path)
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+[33m=========================================== [32m4 passed[39m, [33m[1m130 warnings[22m in 4.93s ============================================

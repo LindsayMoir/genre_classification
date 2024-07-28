@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/2ab69f93eb5b407592aed9f037579048/artifacts
+end_time: 1722120625958
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2ab69f93eb5b407592aed9f037579048
+run_name: intelligent-deer-893
+run_uuid: 2ab69f93eb5b407592aed9f037579048
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722120609038
+status: 4
+tags: []
+user_id: lindsay

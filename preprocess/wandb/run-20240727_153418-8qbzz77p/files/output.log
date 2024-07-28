@@ -1,0 +1,27 @@
+2024-07-27 15:34:21,253 Downloading artifact
+2024-07-27 15:34:22,172 Dropping duplicates
+2024-07-27 15:34:22,209 Dropping missing values
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/lindsay/miniconda3/envs/mlflow-b662b891138f514f86ea83df6f384dc4f23b43c1/lib/python3.10/logging/__init__.py", line 1100, in emit
+    msg = self.format(record)
+  File "/home/lindsay/miniconda3/envs/mlflow-b662b891138f514f86ea83df6f384dc4f23b43c1/lib/python3.10/logging/__init__.py", line 943, in format
+    return fmt.format(record)
+  File "/home/lindsay/miniconda3/envs/mlflow-b662b891138f514f86ea83df6f384dc4f23b43c1/lib/python3.10/logging/__init__.py", line 678, in format
+    record.message = record.getMessage()
+  File "/home/lindsay/miniconda3/envs/mlflow-b662b891138f514f86ea83df6f384dc4f23b43c1/lib/python3.10/logging/__init__.py", line 368, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/mnt/d/Github/genre_classification/preprocess/run.py", line 87, in <module>
+    go(args)
+  File "/mnt/d/Github/genre_classification/preprocess/run.py", line 30, in go
+    logger.info("df.shape before drop is: ", df.shape)
+Message: 'df.shape before drop is: '
+Arguments: ((41975, 17),)
+Traceback (most recent call last):
+  File "/mnt/d/Github/genre_classification/preprocess/run.py", line 87, in <module>
+    go(args)
+  File "/mnt/d/Github/genre_classification/preprocess/run.py", line 32, in go
+    df.dropna(inplace=True).reset_index()
+AttributeError: 'NoneType' object has no attribute 'reset_index'

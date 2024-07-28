@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/dbc6f9e886ce46cea6ba77c591a129ea/artifacts
+end_time: 1722124363900
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dbc6f9e886ce46cea6ba77c591a129ea
+run_name: nosy-hen-714
+run_uuid: dbc6f9e886ce46cea6ba77c591a129ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722124340620
+status: 3
+tags: []
+user_id: lindsay

@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/93d3b9354aaf4f399365d773a9ea2ea3/artifacts
+end_time: 1722125300391
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 93d3b9354aaf4f399365d773a9ea2ea3
+run_name: dapper-shrike-992
+run_uuid: 93d3b9354aaf4f399365d773a9ea2ea3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722125220136
+status: 4
+tags: []
+user_id: lindsay

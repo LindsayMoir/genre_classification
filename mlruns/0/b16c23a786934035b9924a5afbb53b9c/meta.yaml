@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/b16c23a786934035b9924a5afbb53b9c/artifacts
+end_time: 1722124727944
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b16c23a786934035b9924a5afbb53b9c
+run_name: skillful-seal-761
+run_uuid: b16c23a786934035b9924a5afbb53b9c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722124639705
+status: 4
+tags: []
+user_id: lindsay

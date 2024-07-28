@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/8a8adae2457547b290af376bc2d6bb53/artifacts
+end_time: 1722119634834
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8a8adae2457547b290af376bc2d6bb53
+run_name: polite-stoat-193
+run_uuid: 8a8adae2457547b290af376bc2d6bb53
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722119609549
+status: 3
+tags: []
+user_id: lindsay

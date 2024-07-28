@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/af3b60e0348e4dfca710d039fd6b8e72/artifacts
+end_time: 1722126000482
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: af3b60e0348e4dfca710d039fd6b8e72
+run_name: vaunted-hawk-69
+run_uuid: af3b60e0348e4dfca710d039fd6b8e72
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722125980184
+status: 3
+tags: []
+user_id: lindsay

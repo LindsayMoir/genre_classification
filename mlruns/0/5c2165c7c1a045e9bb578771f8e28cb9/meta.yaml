@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/5c2165c7c1a045e9bb578771f8e28cb9/artifacts
+end_time: 1722124363594
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5c2165c7c1a045e9bb578771f8e28cb9
+run_name: classy-swan-724
+run_uuid: 5c2165c7c1a045e9bb578771f8e28cb9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722124344749
+status: 3
+tags: []
+user_id: lindsay
