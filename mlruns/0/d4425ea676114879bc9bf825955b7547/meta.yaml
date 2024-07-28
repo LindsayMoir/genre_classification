@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/d4425ea676114879bc9bf825955b7547/artifacts
+end_time: 1722137570986
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d4425ea676114879bc9bf825955b7547
+run_name: unequaled-skunk-657
+run_uuid: d4425ea676114879bc9bf825955b7547
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722137552828
+status: 3
+tags: []
+user_id: lindsay

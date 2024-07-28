@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/579a2277ad3642c6b4073dc7e859e47b/artifacts
+end_time: 1722137234838
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 579a2277ad3642c6b4073dc7e859e47b
+run_name: invincible-bass-780
+run_uuid: 579a2277ad3642c6b4073dc7e859e47b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722137214992
+status: 3
+tags: []
+user_id: lindsay

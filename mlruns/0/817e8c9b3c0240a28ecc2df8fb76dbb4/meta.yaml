@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/817e8c9b3c0240a28ecc2df8fb76dbb4/artifacts
+end_time: 1722137486089
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 817e8c9b3c0240a28ecc2df8fb76dbb4
+run_name: puzzled-loon-1000
+run_uuid: 817e8c9b3c0240a28ecc2df8fb76dbb4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722137471011
+status: 3
+tags: []
+user_id: lindsay

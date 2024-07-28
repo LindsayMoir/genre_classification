@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/2be1d80097b942948aa976c636962738/artifacts
+end_time: 1722137571326
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2be1d80097b942948aa976c636962738
+run_name: skittish-rook-898
+run_uuid: 2be1d80097b942948aa976c636962738
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722137444697
+status: 3
+tags: []
+user_id: lindsay

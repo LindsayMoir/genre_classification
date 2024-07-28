@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/8161fe62004b46abbfeee4c6c325e616/artifacts
+end_time: 1722139809450
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8161fe62004b46abbfeee4c6c325e616
+run_name: melodic-lark-660
+run_uuid: 8161fe62004b46abbfeee4c6c325e616
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722139790254
+status: 3
+tags: []
+user_id: lindsay

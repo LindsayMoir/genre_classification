@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/5899deae89dd4897af94ec3e8ce61b84/artifacts
+end_time: 1722139755994
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5899deae89dd4897af94ec3e8ce61b84
+run_name: delightful-jay-244
+run_uuid: 5899deae89dd4897af94ec3e8ce61b84
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722139736986
+status: 3
+tags: []
+user_id: lindsay
