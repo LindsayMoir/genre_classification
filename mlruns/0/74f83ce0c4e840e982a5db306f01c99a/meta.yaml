@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/74f83ce0c4e840e982a5db306f01c99a/artifacts
+end_time: 1722127303343
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 74f83ce0c4e840e982a5db306f01c99a
+run_name: popular-conch-983
+run_uuid: 74f83ce0c4e840e982a5db306f01c99a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722127281038
+status: 3
+tags: []
+user_id: lindsay

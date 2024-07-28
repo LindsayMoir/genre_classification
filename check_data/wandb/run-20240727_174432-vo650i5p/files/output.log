@@ -1,0 +1,21 @@
+[1m========================================================================== test session starts ==========================================================================
+platform linux -- Python 3.8.19, pytest-7.4.0, pluggy-1.5.0 -- /home/lindsay/miniconda3/envs/mlflow-990d7acb4feabaf360925657aa7386038e8ad2ac/bin/python3.8
+cachedir: .pytest_cache
+rootdir: /mnt/d/Github/genre_classification/check_data
+[1mcollected 4 items                                                                                                                                                       
+test_data.py::test_column_presence_and_type [32mPASSED
+test_data.py::test_class_names [32mPASSED
+test_data.py::test_column_ranges [32mPASSED
+test_data.py::test_kolmogorov_smirnov [32mPASSED
+[33m=========================================================================== warnings summary ============================================================================
+../../../../../home/lindsay/miniconda3/envs/mlflow-990d7acb4feabaf360925657aa7386038e8ad2ac/lib/python3.8/site-packages/wandb/analytics/sentry.py:90
+  /home/lindsay/miniconda3/envs/mlflow-990d7acb4feabaf360925657aa7386038e8ad2ac/lib/python3.8/site-packages/wandb/analytics/sentry.py:90: SentryHubDeprecationWarning: `sentry_sdk.Hub` is deprecated and will be removed in a future major release. Please consult our 1.x to 2.x migration guide for details on how to migrate `Hub` usage to the new API: https://docs.sentry.io/platforms/python/migration/1.x-to-2.x
+    self.hub = sentry_sdk.Hub(client)
+test_data.py::test_column_presence_and_type
+  /mnt/d/Github/genre_classification/check_data/conftest.py:29: DtypeWarning: Columns (16) have mixed types. Specify dtype option on import or set low_memory=False.
+    sample1 = pd.read_csv(local_path)
+test_data.py::test_column_presence_and_type
+  /mnt/d/Github/genre_classification/check_data/conftest.py:32: DtypeWarning: Columns (16) have mixed types. Specify dtype option on import or set low_memory=False.
+    sample2 = pd.read_csv(local_path)
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+[33m===================================================================== [32m4 passed[39m, [33m[1m3 warnings[22m in 8.42s =====================================================================

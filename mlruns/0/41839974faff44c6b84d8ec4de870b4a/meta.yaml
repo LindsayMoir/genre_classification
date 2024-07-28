@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/41839974faff44c6b84d8ec4de870b4a/artifacts
+end_time: 1722127510442
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 41839974faff44c6b84d8ec4de870b4a
+run_name: dazzling-hound-792
+run_uuid: 41839974faff44c6b84d8ec4de870b4a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722127488424
+status: 3
+tags: []
+user_id: lindsay
