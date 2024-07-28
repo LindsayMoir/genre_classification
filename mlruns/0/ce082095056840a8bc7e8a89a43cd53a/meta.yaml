@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/ce082095056840a8bc7e8a89a43cd53a/artifacts
+end_time: 1722135358087
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ce082095056840a8bc7e8a89a43cd53a
+run_name: receptive-fox-723
+run_uuid: ce082095056840a8bc7e8a89a43cd53a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722135325375
+status: 3
+tags: []
+user_id: lindsay

@@ -1,0 +1,101 @@
+{
+    "os": "Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.10.14",
+    "heartbeatAt": "2024-07-28T02:55:33.980695",
+    "startedAt": "2024-07-28T02:55:31.973955",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "data_train.csv:latest",
+        "--model_config",
+        "/mnt/d/Github/genre_classification/outputs/2024-07-27/19-55-24/random_forest_config.yml",
+        "--export_artifact",
+        "model_export",
+        "--random_seed",
+        "42",
+        "--val_size",
+        "0.3",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "/mnt/d/Github/genre_classification/random_forest/run.py",
+    "codePathLocal": "run.py",
+    "codePath": "random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/LindsayMoir/genre_classification.git",
+        "commit": "4aff5701a7515214b47eeed81b8c777b8587214e"
+    },
+    "email": "tragoes@gmail.com",
+    "root": "/mnt/d/Github/genre_classification",
+    "host": "DESKTOP-LDCE0AL",
+    "username": "lindsay",
+    "executable": "/home/lindsay/miniconda3/envs/mlflow-2094a22843d1a5d67b03b4d810046773a20d3852/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2592.0,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2592.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.0,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 41.643035888671875
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 960M",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 960M",
+            "memory_total": 2147483648
+        }
+    ],
+    "memory": {
+        "total": 15.54885482788086
+    }
+}

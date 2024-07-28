@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/ed149c6ed69945cabf569b1c13bd1d5c/artifacts
+end_time: 1722135968184
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ed149c6ed69945cabf569b1c13bd1d5c
+run_name: sincere-turtle-951
+run_uuid: ed149c6ed69945cabf569b1c13bd1d5c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722135936737
+status: 3
+tags: []
+user_id: lindsay

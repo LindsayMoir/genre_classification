@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/GitHub/nd0821-c2-build-model-workflow-exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/1fc18bcce2ab4dfbb13a2cb5cb39836b/artifacts
+end_time: 1722135612238
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1fc18bcce2ab4dfbb13a2cb5cb39836b
+run_name: awesome-shoat-963
+run_uuid: 1fc18bcce2ab4dfbb13a2cb5cb39836b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722135479626
+status: 3
+tags: []
+user_id: lindsay
